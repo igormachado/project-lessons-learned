@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: fantasy;
+  line-height: normal;
+}
+
+#section-table {
+  float: right;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+table,
+th,
+td {
+  border: 1px solid green;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: left;
+  color: gray;
+}
+
+#caption-table {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+#navigation {
+  padding: 0 30px;
+}
+
+#navigation ul {
+  float: left;
+  padding: 5px 0;
+}
+
+#navigation li {
+  margin-right: 20px;
+  list-style-type: none;
+  display: inline;
+}
+
+#navigation li a {
+  color: white;
+  text-decoration: none;
+  font-family: fantasy;
+}
+
+#cabecalho {
+  top: 0;
+  background-color: rgb(10, 126, 81);
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  margin-bottom: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+#section-foto {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+#minha_foto {
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+#section-foto p {
+  margin-left: 100px;
+}
+
+#main-content {
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+#licoes {
+  margin: 40px;
+  color: green;
+}
+
+#licoes_aprendidas {
+  margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  float: left;
+  color: blue;
+}
+
+#licoes_a_aprender {
+  margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  color: goldenrod;
+}
+
+#section-article {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+}
+
+#section-article h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: green;
+}
+
+#section-article p {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: blueviolet;
+  font-style: oblique;
+}
+
+#section-aside {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 20px;
+}
+
+#section-aside h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: green;
+}
+
+#section-aside p {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: blueviolet;
+  font-style: oblique;
+}
+
+#rodape {
+  margin-top: 20px;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(10, 126, 81);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#rodape a {
+  color: white;
+  text-decoration: none;
+}
